@@ -1,11 +1,14 @@
 .header{
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:black;
 }
 .logo{
-    height: 50px;
+    height: 30px;
 }
 .header nav {
-    background-color: black;
+  
     line-height: 40px;
 }
 .header nav a{
@@ -16,5 +19,5 @@
     font-size: 20px;
 }
 .header nav a:hover{
-    background-color: lightgray;
+    color : red;
 }
